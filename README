@@ -1,0 +1,19 @@
+//The user selects a file and clicks the upload button.
+//The React app creates a FormData object with the file.
+//A POST request is sent to the server.
+//The server receives the file:
+
+//If successful, it saves the file and returns a success response.
+//If there's an error, it returns an error response.
+
+
+//The React app displays a success or error message accordingly.
+
+//To integrate this backend with the React frontend we created earlier:
+
+//Install necessary packages: npm install express multer cors
+//Create a new file (e.g., server.js) and paste the Node.js code into it.
+//Run the server with node server.js
+//Update the fetch URL in the React component to http://localhost:3001/upload
+
+//This setup provides a complete file upload solution with a React frontend and Node.js backend. The graph helps visualize the process flow, making it easier to understand how the components interact.
